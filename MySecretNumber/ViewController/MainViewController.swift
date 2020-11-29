@@ -27,7 +27,7 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func ui_startNewGameButtonTouchedUpInside() {
-        game.starNewGame(withMyNumber: 50)
+        game.starNewGame(withMyNumber: 500)
         updateScreen()
     }
     
