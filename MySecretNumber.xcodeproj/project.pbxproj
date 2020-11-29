@@ -9,25 +9,50 @@
 /* Begin PBXBuildFile section */
 		B36CDBC625726029007781A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36CDBC525726029007781A9 /* AppDelegate.swift */; };
 		B36CDBC825726029007781A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36CDBC725726029007781A9 /* SceneDelegate.swift */; };
-		B36CDBCA25726029007781A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36CDBC925726029007781A9 /* ViewController.swift */; };
+		B36CDBCA25726029007781A9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36CDBC925726029007781A9 /* MainViewController.swift */; };
 		B36CDBCD25726029007781A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36CDBCB25726029007781A9 /* Main.storyboard */; };
 		B36CDBCF2572602B007781A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36CDBCE2572602B007781A9 /* Assets.xcassets */; };
 		B36CDBD22572602B007781A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36CDBD02572602B007781A9 /* LaunchScreen.storyboard */; };
+		B36CDBE425726502007781A9 /* SecretNumberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36CDBE325726502007781A9 /* SecretNumberManager.swift */; };
+		B36CDBF125726571007781A9 /* MySecretNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36CDBF025726571007781A9 /* MySecretNumberTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B36CDBF325726571007781A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36CDBBA25726029007781A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36CDBC125726029007781A9;
+			remoteInfo = MySecretNumber;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B36CDBC225726029007781A9 /* MySecretNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySecretNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36CDBC525726029007781A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B36CDBC725726029007781A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B36CDBC925726029007781A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B36CDBC925726029007781A9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B36CDBCC25726029007781A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B36CDBCE2572602B007781A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B36CDBD12572602B007781A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B36CDBD32572602B007781A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36CDBDA2572606E007781A9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		B36CDBDB2572606F007781A9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B36CDBE325726502007781A9 /* SecretNumberManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretNumberManager.swift; sourceTree = "<group>"; };
+		B36CDBEE25726571007781A9 /* MySecretNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySecretNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36CDBF025726571007781A9 /* MySecretNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecretNumberTests.swift; sourceTree = "<group>"; };
+		B36CDBF225726571007781A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B36CDBBF25726029007781A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36CDBEB25726571007781A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				B36CDBC425726029007781A9 /* MySecretNumber */,
+				B36CDBEF25726571007781A9 /* MySecretNumberTests */,
 				B36CDBC325726029007781A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				B36CDBC225726029007781A9 /* MySecretNumber.app */,
+				B36CDBEE25726571007781A9 /* MySecretNumberTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +85,47 @@
 			children = (
 				B36CDBC525726029007781A9 /* AppDelegate.swift */,
 				B36CDBC725726029007781A9 /* SceneDelegate.swift */,
-				B36CDBC925726029007781A9 /* ViewController.swift */,
-				B36CDBCB25726029007781A9 /* Main.storyboard */,
-				B36CDBCE2572602B007781A9 /* Assets.xcassets */,
-				B36CDBD02572602B007781A9 /* LaunchScreen.storyboard */,
 				B36CDBD32572602B007781A9 /* Info.plist */,
+				B36CDBCE2572602B007781A9 /* Assets.xcassets */,
+				B36CDBDC2572607A007781A9 /* Class */,
+				B36CDBDE25726099007781A9 /* Storyboard */,
+				B36CDBDD25726084007781A9 /* ViewController */,
 			);
 			path = MySecretNumber;
+			sourceTree = "<group>";
+		};
+		B36CDBDC2572607A007781A9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B36CDBE325726502007781A9 /* SecretNumberManager.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B36CDBDD25726084007781A9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B36CDBC925726029007781A9 /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B36CDBDE25726099007781A9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B36CDBD02572602B007781A9 /* LaunchScreen.storyboard */,
+				B36CDBCB25726029007781A9 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B36CDBEF25726571007781A9 /* MySecretNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36CDBF025726571007781A9 /* MySecretNumberTests.swift */,
+				B36CDBF225726571007781A9 /* Info.plist */,
+			);
+			path = MySecretNumberTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +148,24 @@
 			productReference = B36CDBC225726029007781A9 /* MySecretNumber.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B36CDBED25726571007781A9 /* MySecretNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36CDBF525726571007781A9 /* Build configuration list for PBXNativeTarget "MySecretNumberTests" */;
+			buildPhases = (
+				B36CDBEA25726571007781A9 /* Sources */,
+				B36CDBEB25726571007781A9 /* Frameworks */,
+				B36CDBEC25726571007781A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36CDBF425726571007781A9 /* PBXTargetDependency */,
+			);
+			name = MySecretNumberTests;
+			productName = MySecretNumberTests;
+			productReference = B36CDBEE25726571007781A9 /* MySecretNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +178,10 @@
 					B36CDBC125726029007781A9 = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					B36CDBED25726571007781A9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B36CDBC125726029007781A9;
+					};
 				};
 			};
 			buildConfigurationList = B36CDBBD25726029007781A9 /* Build configuration list for PBXProject "MySecretNumber" */;
@@ -108,6 +191,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = B36CDBB925726029007781A9;
 			productRefGroup = B36CDBC325726029007781A9 /* Products */;
@@ -115,6 +199,7 @@
 			projectRoot = "";
 			targets = (
 				B36CDBC125726029007781A9 /* MySecretNumber */,
+				B36CDBED25726571007781A9 /* MySecretNumberTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +215,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B36CDBEC25726571007781A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,19 +229,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B36CDBCA25726029007781A9 /* ViewController.swift in Sources */,
+				B36CDBCA25726029007781A9 /* MainViewController.swift in Sources */,
 				B36CDBC625726029007781A9 /* AppDelegate.swift in Sources */,
+				B36CDBE425726502007781A9 /* SecretNumberManager.swift in Sources */,
 				B36CDBC825726029007781A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B36CDBEA25726571007781A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36CDBF125726571007781A9 /* MySecretNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36CDBF425726571007781A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36CDBC125726029007781A9 /* MySecretNumber */;
+			targetProxy = B36CDBF325726571007781A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B36CDBCB25726029007781A9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B36CDBCC25726029007781A9 /* Base */,
+				B36CDBDA2572606E007781A9 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -158,6 +268,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B36CDBD12572602B007781A9 /* Base */,
+				B36CDBDB2572606F007781A9 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -296,7 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienguerneve.MySecretNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +428,47 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienguerneve.MySecretNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B36CDBF625726571007781A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6BPASNB8L;
+				INFOPLIST_FILE = MySecretNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienguerneve.MySecretNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySecretNumber.app/MySecretNumber";
+			};
+			name = Debug;
+		};
+		B36CDBF725726571007781A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6BPASNB8L;
+				INFOPLIST_FILE = MySecretNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienguerneve.MySecretNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySecretNumber.app/MySecretNumber";
 			};
 			name = Release;
 		};
@@ -336,6 +489,15 @@
 			buildConfigurations = (
 				B36CDBD72572602B007781A9 /* Debug */,
 				B36CDBD82572602B007781A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36CDBF525726571007781A9 /* Build configuration list for PBXNativeTarget "MySecretNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36CDBF625726571007781A9 /* Debug */,
+				B36CDBF725726571007781A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
